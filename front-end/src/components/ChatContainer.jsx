@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaYoutube } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 import ChatLists from "./ChatLists";
 import InputText from "./InputText";
 import UserLogin from "./UserLogin";
@@ -42,7 +42,7 @@ const ChatContainer = () => {
           <div className="chats_header">
             <h4>Username: {user}</h4>
             <p>
-              <FaYoutube className="chats_icon" /> Code With Mark
+              <FaGithub className="chats_icon" /> Mark Kimaathi
             </p>
             <p className="chats_logout" onClick={Logout}>
               <strong>Logout</strong>
