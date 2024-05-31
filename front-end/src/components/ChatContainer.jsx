@@ -42,7 +42,7 @@ const ChatContainer = () => {
           <div className="chats_header">
             <h4>Username: {user}</h4>
             <p>
-              <FaYoutube className="chats_icon" /> Code With Yousaf
+              <FaYoutube className="chats_icon" /> Code With Mark
             </p>
             <p className="chats_logout" onClick={Logout}>
               <strong>Logout</strong>
